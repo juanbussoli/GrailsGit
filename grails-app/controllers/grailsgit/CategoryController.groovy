@@ -15,6 +15,7 @@ class CategoryController {
     }
 
     def show(Long id) {
+        GrailsGitController.CategoryVisits(id)
         respond categoryService.get(id)
     }
 
