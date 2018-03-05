@@ -6,6 +6,8 @@ class Category {
     String urlImage
     int visits
 
+    //Comment
+
 
     static belongsTo = [site: Site]
 
