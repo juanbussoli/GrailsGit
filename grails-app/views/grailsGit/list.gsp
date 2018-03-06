@@ -22,7 +22,7 @@
 
         <ol name="listacat" id="listacat">
             <g:each in="${lista}">
-                <li name="${it.active}">${it.name} <a href="http://localhost:8080/category//${it.id}">Link</a> </li>
+                <li name="${it.active}">${it.name} </li>
             </g:each>
         </ol>
 </div>
